@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "axios": "^1.6.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "name": "045.lesson_22",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+	"start": "webpack serve --mode development --open",
+	"build": "webpack --mode production"
+ },
+  "author": "Kava",
+  "license": "ISC",
+  "description": ""
+}
